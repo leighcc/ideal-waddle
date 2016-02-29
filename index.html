@@ -14,7 +14,7 @@ layout: default
       <a href="{{ post_url }}"
         title="{{ post.title }}">
       <img 
-          src="{{ "/assets/images/" | append: post.banner_image | prepend: site.baseurl | prepend: site.url }}" 
+          src="{{ "page.banner_image }}" 
           alt="{% if post.banner_image_alt %}{{ post.banner_image_alt }}{% else %}{{ post.title }} {% endif %}">
       </a>
     </div>
