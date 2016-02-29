@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "2016麦理浩径徒步"
-date:   2016-02-29 20:42:00
+date:   2016-02-28 20:42:00
 categories: play
 banner_image: http://7xrci6.com1.z0.glb.clouddn.com/IMG_0001.JPG
 comments: true
