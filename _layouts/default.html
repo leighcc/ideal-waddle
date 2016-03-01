@@ -91,8 +91,8 @@
       /* To avoid render blocking css */
       var cb = function() {
         var l = document.createElement('link'); l.rel = 'stylesheet';
-        l.href = '../assets/css/fonts/stylesheet.css';
-        var h = document.getElementsByTagName('head')[0]; h.parentNode.insertBefore(l, h);
+        l.href = "{{ '/assets/css/fonts/stylesheet.css' | prepend: site.baseurl | prepend: site.url }}";
+        var h = document.getElementsByTagName('head')[0]; h.appendChild(l);
       };
       var raf = requestAnimationFrame || mozRequestAnimationFrame ||
           webkitRequestAnimationFrame || msRequestAnimationFrame;
