@@ -30,8 +30,11 @@ theme:
   google_analytics_key: 
   google_webmaster_key: 
 
-# Build settings
+# Markdown文件解析器
 markdown: kramdown
+
+# 摘要分隔符
+excerpt_separator: <!--more-->
 
 # Permalinks
 permalink:        pretty

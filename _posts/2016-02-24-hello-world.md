@@ -11,6 +11,7 @@ comments: true
 > - CSS设计指南（第3版）
 > - 翁恺老师的html5和css3教程
 > - codecademy上的javascript, git, jquery等课程
+<!--more-->
 > - 网易前端微专业课程
 > - 慕课网sublime text, ajax等小教程
 > - 阮一峰老师的javascript标准参考教程
