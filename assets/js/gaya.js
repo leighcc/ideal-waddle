@@ -162,3 +162,45 @@ jQuery(document).ready(function($){
   });
 
 });
+
+/*
+ * 顶栏自动出现
+ */
+jQuery(document).ready(function () {
+  
+  // 顶栏
+  var $header_origin = $('.header').first();
+  // 克隆的顶栏
+  var $header = $header_origin.clone();
+  $header_origin.before($header);
+  $header.addClass('header-fixed header-disapear');
+  // 向下滚动距离大于 $height 开始监测是否向上滚动
+  var $height = $header.innerHeight();
+  // FF doesn't recognize mousewheel as of FF3.x
+  var mousewheelevt = (/Firefox/i.test(navigator.userAgent)) ? "DOMMouseScroll" : "mousewheel"
+
+  // 显示顶栏
+  $(window).scroll(function () {
+    if ( $(this).scrollTop() > $height ) {
+      $(this).bind(mousewheelevt, function (e) {
+        var evt = window.event || e;
+        evt = evt.originalEvent ? evt.originalEvent : evt;
+        // firefox 向下滚动是正值
+        var delta = evt.detail ? evt.detail*(-40) : evt.wheelDelta;
+
+        if ( delta > 0 ) {
+          // 向上滚动
+          $header.removeClass('header-disapear');
+          // $header.slideDown();
+        }
+        if ( delta < 0 ) {
+          // 向下滚动
+          $header.addClass('header-disapear');
+        }
+      });
+    }
+    else {
+      $header.addClass('header-disapear');
+    }
+  });
+});

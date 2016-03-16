@@ -188,6 +188,15 @@ img {
   }
 }
 
+.header.header-fixed {
+  position: fixed;
+  top: 0;
+  @include transition(0.5s);
+}
+.header.header-disapear {
+  top: -100px;
+}
+
 .header .header-logo {
   min-height: 44px;
   padding-right: 10px;
