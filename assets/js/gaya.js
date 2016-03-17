@@ -199,5 +199,8 @@ jQuery(document).ready(function () {
         }
       });
     }
+    else {
+      $header.removeClass('header-disapear');
+    }
   });
 });
