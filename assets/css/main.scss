@@ -649,3 +649,9 @@ img {
   img { float:left; margin-right: 1em; }
   ul { margin-bottom: 0; }
 }
+
+/* emoji 同行显示 */
+.post .post-content img.emoji {
+  display: inline;
+  padding: 0;
+}

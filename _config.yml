@@ -12,7 +12,7 @@ author_thumbnail: "/assets/images/avatar.jpg"
 # Theme customization
 theme:
   # 主题色
-  highlight_color: "#6fa873" #205081 #272935
+  highlight_color: "#0374C6" #205081 #272935 #6fa873
   # Social media links
   social: 
     github: leighcc
