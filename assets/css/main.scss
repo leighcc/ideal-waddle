@@ -166,6 +166,7 @@ img {
  */
 
 .header {
+  visibility: hidden;
   background: $color-white;
   margin-bottom: 3rem;
   border-bottom: 1px solid $gray-lighter;
@@ -191,6 +192,7 @@ img {
 .header.header-fixed {
   position: fixed;
   top: 0;
+  visibility: visible;
   @include transition(0.5s);
 }
 .header.header-disapear {
