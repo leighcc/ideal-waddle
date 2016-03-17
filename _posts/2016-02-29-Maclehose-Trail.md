@@ -3,7 +3,7 @@ layout: post
 title:  "2016麦理浩径徒步"
 date:   2016-02-28 20:42:00
 categories: play
-banner_image: http://7xrci6.com1.z0.glb.clouddn.com/image.jpeg?imageMogr2/rotate/90/crop/!2448x1500a0a1000
+banner_image: http://7xrci6.com1.z0.glb.clouddn.com/image.jpeg?imageMogr2/auto-orient/crop/!2448x1500a0a1000
 comments: true
 ---
 
@@ -23,7 +23,7 @@ comments: true
 
 水库非常大，是香港储水量最大的水库。而它的水质也是非常好，景色优美。（后来他们下去水库玩了，留我在上面看包） :grinning:
 
-![看包的勇士](http://7xrci6.com1.z0.glb.clouddn.com/image.jpeg?imageMogr2/rotate/90)
+![看包的勇士](http://7xrci6.com1.z0.glb.clouddn.com/image.jpeg?imageMogr2/auto-orient)
 
 大概两个小时后，我们到达了东坝。东坝是观察六角形岩柱群最佳位置。这些自然形成的岩柱已经存在了上亿年。这个时候我们几只已经累成狗，在把一包辣笋给小程吃了让她清醒一点以后，我们继续出发。:sun_with_face:
 
