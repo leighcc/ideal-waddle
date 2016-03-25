@@ -144,11 +144,7 @@ img {
   max-width: $M; // See breakpoints in css/_sass/helpers/_layout.scss
   margin: 0 auto;
 
-  &::after { /* Clearfix */
-      content: '';
-      display: table;
-      clear: both;
-  }
+  @include clearfix;
 }
 
 
@@ -193,7 +189,7 @@ img {
   position: fixed;
   top: 0;
   visibility: visible;
-  @include transition(0.5s);
+  @include transition(top 0.5s);
 }
 .header.header-disapear {
   top: -100px;
