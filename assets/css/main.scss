@@ -262,9 +262,8 @@ img {
   @include font-size(15px);
   color: $color-white;
   background-color: lighten($color-1, 5%);
-  -webkit-transition: all .5s ease-in-out;
-          transition: all .5s ease-in-out;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  @include transition(all .5s ease-in-out);
+  // text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
   @include MQ(M) {
     @include font-size(15px);
   }
@@ -304,7 +303,7 @@ img {
 
 /* Sidebar nav */
 .sidebar .sidebar-nav {
-  margin: 3em -1em 0;
+  margin: 3em -1em 0; //-1em 用于抵消 sidebar 的 padding
   border-top: 1px solid lighten($color-1, 8%);
 }
 
@@ -364,9 +363,7 @@ img {
       margin-top: -1px;
       left: 50%;
       margin-left: -10px;
-      -webkit-transition: background 0.3s;
-      -moz-transition: background 0.3s;
-      transition: background 0.3s;
+      @include transition(background 0.3s);
 
       &::before, &::after {
           content: '';
