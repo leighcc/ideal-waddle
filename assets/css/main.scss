@@ -99,6 +99,12 @@ img {
   height: auto;
 }
 
+/* emoji 同行显示 */
+.post .post-content img.emoji {
+  display: inline;
+  padding: 0;
+}
+
 
 /*------------------------------------*\
     #SETTINGS-TYPE
@@ -520,9 +526,6 @@ img {
 .related-posts {
   padding: 1em 0;
   border-top: 1px solid $gray-lighter;
-  @include MQ(M) {
-    padding: 1em 0 1em 0;
-  }
 }
 
 .related-posts ul {
@@ -641,10 +644,4 @@ img {
   p { @include font-size(14px); }
   img { float:left; margin-right: 1em; }
   ul { margin-bottom: 0; }
-}
-
-/* emoji 同行显示 */
-.post .post-content img.emoji {
-  display: inline;
-  padding: 0;
 }
