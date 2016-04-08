@@ -2,3 +2,5 @@
   href: "/about" # the page where it pointed 
 - title: "归档"
   href: "/archive"
+- title: "作品"
+  href: "/portfolio"
