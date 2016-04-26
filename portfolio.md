@@ -9,4 +9,5 @@ permalink: /portfolio/
 	<li><a href="http://leighcc.github.io/portfolio/DEMO/%E8%BD%AE%E6%92%AD%E5%A4%B4%E5%9B%BE_jQuery.html">jQuery轮播头图插件</a></li>
 	<li><a href="http://leighcc.github.io/portfolio/DEMO/CSS3%E5%8A%A8%E7%94%BB.html">CSS3动画相册</a></li>
 	<li><a href="http://leighcc.github.io/portfolio/DEMO/ripple.html">水波按钮</a></li>
+	<li><a href="http://leighcc.github.io/portfolio/IFE/Task07/official%20website.html">常见的技术产品官网的页面架构及样式布局</a></li>
 </ul>
