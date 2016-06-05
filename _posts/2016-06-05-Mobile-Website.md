@@ -8,6 +8,8 @@ comments: true
 
 已经好久没有写博客了呢:relieved:，其实是因为我不想把博客当成笔记本，所以很多学习记录都写在印象笔记了。Whatever，还是太久没在这里写，那就随便记录一下后面再更新吧:relaxed:。
 
+<!--more-->
+
 ## 像素
 
 首先要知道两种像素。**逻辑像素**，设计中所用到的像素就是逻辑像素。**设备像素**，设备厂商规格表上写着的就是设备像素。它们之间存在一定的换算关系，这个系数就叫**dpr**，比如 iPhone 4 以上的 iOS 设备 dpr 为 2，到 iPhone 6s 甚至是 3。要得到 dpr，就要知道**ppi**，而 ppi 是设备像素和尺寸计算出来的，这里就不放计算方法了。在 chrome Dev Tools 里面可以直接看到 dpr 的。
@@ -18,19 +20,22 @@ comments: true
 
 ## viewport
 
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% highlight HTML %}
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+{% endhighlight %}
 这一行语句就是用来设置 viewport 的。跟像素一样，viewport 也有两个。layout viewport，比如 iPhone 的值是980px。visual viewport，有时候是屏幕实际的宽度。浏览器欺骗网页，说自己是一个 980px 宽度的设备，网页按照这个尺寸布局好以后，再缩小到 visual viewport 上展现出来。上面的语句就是首页把 layout viewport 缩小到跟实际屏幕一样，网页在这个小屏幕上布局。
-
-    <meta content="yes" name="apple-mobile-web-app-capable">
-	<meta content="black" name="apple-mobile-web-app-status-bar-style">
-	<meta content="telephone=no" name="format-detection">
-	<meta content="email=no" name="format-detection">
+{% highlight HTML %}
+<meta content="yes" name="apple-mobile-web-app-capable">
+<meta content="black" name="apple-mobile-web-app-status-bar-style">
+<meta content="telephone=no" name="format-detection">
+<meta content="email=no" name="format-detection">
+{% endhighlight %}
 比较通用的`meta`设置还有这几个，从上到下的作用分别是，当网站添加到主屏幕快速启动方式，可隐藏地址栏，仅针对ios的safari；将网站添加到主屏幕快速启动方式，仅针对ios的safari顶端状态条的样式；忽略将页面中的数字识别为电话号码；忽略Android平台中对邮箱地址的识别。
 
 ## 自适应
 
 主要是要活用 rem 和百分比。只需：
-```css
+{% highlight CSS %}
 /* 320px布局 */
 html {
 	font-size: 100px;
@@ -41,7 +46,7 @@ html {
 		font-size: 117.1875px;
 	}
 }
-```
+{% endhighlight %}
 在 iPhone 6 下字体就会变成 iPhone 5 的 1.17 倍。
 
 ## 工具
