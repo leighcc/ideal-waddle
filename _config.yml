@@ -33,6 +33,9 @@ theme:
 # Markdown文件解析器
 markdown: kramdown
 
+kramdown:
+  input: GFM
+
 # 摘要分隔符
 excerpt_separator: <!--more-->
 
