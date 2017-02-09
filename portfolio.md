@@ -5,9 +5,10 @@ permalink: /portfolio/
 ---
 
 <ul>
-	<li><a href="http://leighcc.github.io/portfolio/EDU/index.html">网易前端微专业大作业</a></li>
-	<li><a href="https://leighcc.github.io/portfolio/beatles/index.html">致敬网页</a></li>
+    <li><a href="http://leighcc.github.io/portfolio/EDU/index.html">网易前端微专业大作业</a></li>
 	<li><a href="https://leighcc.github.io/portfolio/Buttons/index.html">按钮组件 Buttons</a></li>
+    <li><a href="http://codepen.io/leighcc/full/VmmNMr">JS 计算器</a></li>
+	<li><a href="https://leighcc.github.io/portfolio/beatles/index.html">Beatles Salute Page(Bootstrap)</a></li>
 	<li><a href="http://leighcc.github.io/portfolio/DEMO/rollingBox/index.html">滚动的盒子</a></li>
 	<li><a href="http://codepen.io/leighcc/full/VmmNMr/">JS 计算器</a></li>
 	<li><a href="http://codepen.io/leighcc/pen/YGmVaz">Fibonacci 螺旋线</a></li>
