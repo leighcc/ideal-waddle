@@ -16,5 +16,5 @@ permalink: /archive/
       {% capture year %}{{currentyear}}{% endcapture %} 
     {% endif %}
     <li><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></li>
-{% endfor %}
+  {% endfor %}
 </div>
